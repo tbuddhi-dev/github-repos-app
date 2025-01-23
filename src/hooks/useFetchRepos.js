@@ -11,6 +11,7 @@ const useFetchRepos = () => {
 
   useEffect(() => {
     fetchRepos();
+    // eslint-disable-next-line
   }, []); // Call on initial render
 
   const getDateTenDaysAgo = () => {
